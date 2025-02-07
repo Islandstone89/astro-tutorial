@@ -1,0 +1,32 @@
+---
+---
+<button class="hamburger" aria-expanded="false">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </button>
+
+  <style>
+
+.hamburger {
+       padding-right: 20px;
+       cursor: pointer;
+
+       @media (width > 50rem) {
+        display: nones;
+       }
+
+       &[aria-expanded="true"] {
+        background-color: red;
+       }
+}
+
+.hamburger .line {
+        display: block;
+        width: 40px;
+        height: 5px;
+        margin-bottom: 10px;
+        background-color: #ff9776;
+}
+
+  </style>

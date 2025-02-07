@@ -1,13 +1,10 @@
 * {
     box-sizing: border-box;
   }
-
-html {
-    background-color: #f1f5f9;
-    font-family: sans-serif;
-  }
   
   body {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
